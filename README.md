@@ -26,8 +26,9 @@
 4. 测试数据
    
    > message: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+   > 
    > cipher key: 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
 
 使用AES test进行测试，将message和cipher key分别写入文件 `fm.txt`  和 `fk.txt`  最终将加密结果输出到文件 `code_ch.txt`   和`code_hex.txt` 中
 
-可以和`AES标准fips-197[1].PDF.pdf` 中测试数据进行对比
+可以和`AES标准fips-197[1].PDF.pdf` 中测试数据进行对比。
