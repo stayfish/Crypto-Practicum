@@ -55,3 +55,9 @@
         ![menu_aes](images/menu_aes.png)
 
         其中后面四项功能是对ascii文件进行加密解密的
+
+#### SHA-1算法
+
+1. 涉及到的数据结构：
+
+        stl::string,stl::bitset,stl::vector
