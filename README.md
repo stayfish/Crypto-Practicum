@@ -21,7 +21,7 @@
 
 3. 运行效果
    
-   ![](C:\Users\stay\AppData\Roaming\marktext\images\2022-06-01-11-06-01-image.png)
+   ![menu_aes](images/menu_aes.png)
 
 4. 测试数据
    
