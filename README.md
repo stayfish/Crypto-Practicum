@@ -32,3 +32,26 @@
 使用AES test进行测试，将message和cipher key分别写入文件 `fm.txt`  和 `fk.txt`  最终将加密结果输出到文件 `code_ch.txt`   和`code_hex.txt` 中
 
 可以和`AES标准fips-197[1].PDF.pdf` 中测试数据进行对比。
+
+#### CBC模式实现
+
+在AES代码上添加功能即可
+
+1. 程序结构
+   
+   | 文件名      | 功能                  |
+   | -------- | ------------------- |
+   | F256.h   | 声明域$F_{2^8}$ 接口的头文件 |
+   | AES.h    | 声明AES操作接口的头文件       |
+   | const.h  | 声明全局常数的头文件          |
+   | CBC.h    | CBC模式加解密的接口         |
+   | F256.cpp | 实现域$F_{2^8}$ 上的相关操作 |
+   | AES.cpp  | 实现AES加密的各项步骤        |
+   | CBC.cpp  | 实现CBC加解密的操作         |
+   | main.cpp | 测试主程序               |
+
+2. 运行效果
+
+        ![menu_aes](images/menu_aes.png)
+
+        其中后面四项功能是对ascii文件进行加密解密的
