@@ -1,5 +1,7 @@
 # 现代密码学课程设计
 
+--- 
+
 ### 目录
 
 <!-- vscode-markdown-toc -->
@@ -13,7 +15,9 @@
     autoSave=true
     /vscode-markdown-toc-config -->
 
-<!-- /vscode-markdown-toc --># 同济大学现代密码学课程设计
+<!-- /vscode-markdown-toc -->
+
+---
 
 #### 1. <a name='AES'></a>AES算法实现
 
