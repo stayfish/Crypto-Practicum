@@ -1,8 +1,17 @@
-# 同济大学现代密码学课程设计
+<!-- vscode-markdown-toc -->
 
-[TOC]
+        * 1. [AES算法实现](#AES)
+        * 2. [CBC模式实现](#CBC)
+        * 3. [SHA-1算法](#SHA-1)
 
-#### AES算法实现
+<!-- vscode-markdown-toc-config
+    numbering=true
+    autoSave=true
+    /vscode-markdown-toc-config -->
+
+<!-- /vscode-markdown-toc --># 同济大学现代密码学课程设计
+
+#### 1. <a name='AES'></a>AES算法实现
 
 1. 算法中的变量：
    
@@ -35,7 +44,7 @@
 
 可以和`AES标准fips-197[1].PDF.pdf` 中测试数据进行对比。
 
-#### CBC模式实现
+#### 2. <a name='CBC'></a>CBC模式实现
 
 在AES代码上添加功能即可
 
@@ -58,7 +67,7 @@
 
         其中后面四项功能是对ascii文件进行加密解密的
 
-#### SHA-1算法
+#### 3. <a name='SHA-1'></a>SHA-1算法
 
 1. 涉及到的数据结构：
 
