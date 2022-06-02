@@ -84,7 +84,7 @@
 
 3. 运行效果
    
-   ![](C:\Users\stay\AppData\Roaming\marktext\images\2022-06-03-02-50-23-image.png)
+   ![menu_sha](D:\workspace\crypto\Crypto-Practicum\images\menu_sha1.png)
    
    当两个路径输入分别为`m`和`mac` 时，相当于输入默认路径，默认路径可以再代码中修改。
 
