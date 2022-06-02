@@ -1,8 +1,8 @@
 <!-- vscode-markdown-toc -->
 
-        * 1. [AES算法实现](#AES)
-        * 2. [CBC模式实现](#CBC)
-        * 3. [SHA-1算法](#SHA-1)
+* 1. [AES算法实现](#AES)
+* 2. [CBC模式实现](#CBC)
+* 3. [SHA-1算法](#SHA-1)
 
 <!-- vscode-markdown-toc-config
     numbering=true
