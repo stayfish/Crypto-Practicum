@@ -91,7 +91,7 @@
 
 3. 运行效果
    
-   ![menu_sha](D:\workspace\crypto\Crypto-Practicum\images\menu_sha1.png)
+   ![menu_sha](images\menu_sha1.png)
    
    当两个路径输入分别为`m`和`mac` 时，相当于输入默认路径，默认路径可以再代码中修改。
 
