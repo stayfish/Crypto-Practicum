@@ -2,24 +2,23 @@
 
 --- 
 
-### 目录
+
 
 <!-- vscode-markdown-toc -->
-
 * 1. [AES算法实现](#AES)
 * 2. [CBC模式实现](#CBC)
 * 3. [SHA-1算法](#SHA-1)
+* 4. [RSA加密解密](#RSA)
 
 <!-- vscode-markdown-toc-config
-    numbering=true
-    autoSave=true
-    /vscode-markdown-toc-config -->
-
+	numbering=true
+	autoSave=true
+	/vscode-markdown-toc-config -->
 <!-- /vscode-markdown-toc -->
 
 ---
 
-#### 1. <a name='AES'></a>AES算法实现
+####  1. <a name='AES'></a>AES算法实现
 
 1. 算法中的变量：
    
@@ -52,7 +51,7 @@
 
 可以和`AES标准fips-197[1].PDF.pdf` 中测试数据进行对比。
 
-#### 2. <a name='CBC'></a>CBC模式实现
+####  2. <a name='CBC'></a>CBC模式实现
 
 在AES代码上添加功能即可
 
@@ -75,7 +74,7 @@
 
         其中后面四项功能是对ascii文件进行加密解密的
 
-#### 3. <a name='SHA-1'></a>SHA-1算法
+####  3. <a name='SHA-1'></a>SHA-1算法
 
 1. 涉及到的数据结构：
 
@@ -111,3 +110,24 @@
    * 如果$447\leq l\lt512$ ，则需要生成两组
    
    除此以外，分组读取的时候要累加每一组的长度，最后连接的长度二进制串不是本次读取的长度，而是总长度！
+
+####  4. <a name='RSA'></a>RSA加密解密
+
+1. NTL库
+- 官方文档：https://libntl.org/doc/tour-ex1.html
+- NTL/ZZ库使用：https://github.com/libntl/ntl/blob/main/doc/ZZ.txt
+- 配置说明：https://blog.csdn.net/zfy1996/article/details/106701765?spm=1001.2101.3001.6650.12&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-12-106701765-blog-117782324.pc_relevant_antiscanv3&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-12-106701765-blog-117782324.pc_relevant_antiscanv3&utm_relevant_index=15
+
+2. 程序结构
+   
+   | 文件名      | 功能                   |
+   | -------- | -------------------- |
+   | RSA.h    | RSA加密解密的接口           |
+   | RSA.cpp  | RSA加密解密算法的实现        |
+   | main.cpp | 测试主程序                |
+
+3. 运行效果
+   
+   显示的是生成的密钥和公钥
+   ![RSA](images/RSA.png)
+   
