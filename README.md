@@ -131,3 +131,18 @@
    显示的是生成的密钥和公钥
    ![RSA](images/RSA.png)
    
+
+
+#### RSA证书
+1. 类封装
+ 
+   将RSA加密解密中的程序封装为一个类
+   ![rsah](images/rsah.png)
+2. 文件结构
+    | 文件名      | 功能                   |
+   | -------- | -------------------- |
+   | RSA.h    | RSA密码体制类的声明           |
+   | RSA.cpp  | RSA密码体制类的实现        |
+   |RsaSig.h|RSA签名算法类的声明|
+   |RsaSig.cpp|RSA签名算法类的实现|
+   | main.cpp | 测试主程序                |
