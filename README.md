@@ -60,8 +60,9 @@
    | main.cpp | 测试主程序               |
 
 2. 运行效果
-        ![menu_aes](images/menu_aes.png)
-        其中后面四项功能是对ascii文件进行加密解密的
+
+   ![menu_aes](images/menu_aes.png)
+   其中后面四项功能是对ascii文件进行加密解密的
 
 ## 3. SHA-1算法
 
@@ -75,6 +76,7 @@
    | main.cpp | 测试主程序                |
 
 3. 运行效果
+
    ![menu_sha](images/menu_sha1.png)
    当两个路径输入分别为`m`和`mac` 时，相当于输入默认路径，默认路径可以再代码中修改。
 
@@ -111,6 +113,7 @@
 3. 运行效果
 
    显示的是生成的密钥和公钥
+
    ![RSA](images/RSA.png)
 
 ## 5. RSA签名
@@ -118,6 +121,7 @@
 1. 类封装
 
    将RSA加密解密中的程序封装为一个类
+
    ![rsah](images/rsah.png)
 
 2. 文件结构
@@ -144,7 +148,9 @@
 
 2. 测试
 
-   运行程序后，会在当前目录下生成.log日志文件，会显示测试信息和证书的验证状态，如图![certificate_log](images/certificate_log.png)
+   运行程序后，会在当前目录下生成.log日志文件，会显示测试信息和证书的验证状态，如图:
+
+   ![certificate_log](images/certificate_log.png)
 
 ## 7. 文件加密系统
 
@@ -165,8 +171,12 @@
 
 2. 流程图
 
-   加密系统的流程如下：![overview](images/overview.png)
+   加密系统的流程如下：
+
+   ![overview](images/overview.png)
 
 3. 测试
 
-   运行截图如下：![final](images/final_result.png)
+   运行截图如下：
+
+   ![final](images/final_result.png)
