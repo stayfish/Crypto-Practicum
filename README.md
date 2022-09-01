@@ -30,9 +30,11 @@
    | main.cpp | 测试主程序               |
 
 3. 运行效果
+
    ![menu_aes](images/menu_aes.png)
 
 4. 测试数据
+
    > message: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
    >
    > cipher key: 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
@@ -77,6 +79,7 @@
    当两个路径输入分别为`m`和`mac` 时，相当于输入默认路径，默认路径可以再代码中修改。
 
 4. 测试数据
+
    可以用ppt上的测试数据，也可以用自己构造的数据，然后和在线编码网站的结果比对[在线加密解密 (oschina.net)](https://tool.oschina.net/encrypt?type=2)
 
 5. 一些细节
@@ -106,12 +109,14 @@
    | main.cpp | 测试主程序                |
 
 3. 运行效果
+
    显示的是生成的密钥和公钥
    ![RSA](images/RSA.png)
 
 ## 5. RSA签名
 
 1. 类封装
+
    将RSA加密解密中的程序封装为一个类
    ![rsah](images/rsah.png)
 
@@ -138,6 +143,7 @@
    | main.cpp | RSA的测试程序 |
 
 2. 测试
+
    运行程序后，会在当前目录下生成.log日志文件，会显示测试信息和证书的验证状态，如图![certificate_log](images/certificate_log.png)
 
 ## 7. 文件加密系统
@@ -158,7 +164,9 @@
    | main.cpp | 文件加密系统程序 |
 
 2. 流程图
+
    加密系统的流程如下：![overview](images/overview.png)
 
 3. 测试
+
    运行截图如下：![final](images/final_result.png)
